@@ -365,3 +365,23 @@ main {
   left: 50px;
 }
 /* A Simple Perfect Place To Get Lost end */
+
+/* footer section */
+footer {
+  max-width: 1200px;
+  height: 500px
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.05);
+}
+.mood_of {
+  list-style: none;
+  text-align: center;
+}
+.fotter-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 50px;
+}
