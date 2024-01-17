@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Mulish:ital,wght@0,700;0,800;0,900;1,400;1,600&family=Open+Sans:ital,wght@0,700;0,800;1,400;1,800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish';
+}
+
+/* common shared style start */
+.primary_h3_title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.primary_h4_title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.primary_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.white {
+  color: #fff;
+}
+.gray {
+  color: #5a5a5dcc;
+}
+.black {
+  color: rgba(22, 22, 29, 0.801);
+}
+.common_btn {
+  width: 174px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card_p {
+  color: #fff;
+  /* color: #ff5400; */
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* common shared style end */
+
+/* header style start */
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* for nav section */
+.nav_container {
+  /* border: 1px solid olive; */
+  height: 146px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.left_nav_box {
+  width: 50%;
+  /* border: 1px solid chocolate; */
+  display: flex;
+  list-style: none;
+  padding: 0 10px;
+  gap: 2rem;
+  align-items: center;
+  color: #131318;
+  font-size: 26px;
+  font-weight: 800;
+}
+.right_nav_box {
+  width: 50%;
+  /* border: 1px solid blue; */
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+.right_nav_box a {
+  color: var(--Dark-02, #424247);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* bacground _section */
+.bacground_img {
+  background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  border: 0;
+  /* background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ); */
+}
+.bacground_text_container {
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.bacground_title {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 800;
+}
+.bacground_text_container .primary_text {
+  margin: 1rem 0 1rem 0;
+}
+.bacground_form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0 180px;
+  border-radius: 16px;
+}
+.bacground_form_container input {
+  width: 174px;
+  height: 40px;
+  border: 0px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-align: center;
+  /* list-style: none; */
+}
+/* header style end */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Our Popular Tours */
+.popular_tours_container {
+  margin: 50px auto;
+  /* border: 1px solid indigo; */
+  /* max-height: 500px; */
+  display: flex;
+  gap: 50px;
+}
+.popular_tours_text_box {
+  width: 50%;
+  /* border: 1px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.popular_tours_image_box {
+  width: 50%;
+}
+.popular_tours_image_box img {
+  width: 100%;
+}
+
+/* destination_container start*/
+.destination_container {
+  /* border: 2px solid blueviolet; */
+  list-style: none;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.text_block_section {
+  /* padding: 0 300px; */
+  padding: 2rem 0;
+}
+/* block_1_top start*/
+.block_1_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid seagreen; */
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 24px;
+  /* min-height: 200px; */
+}
+.block_1_top .card_1 img {
+  width: 100%;
+  height: 100%;
+  /* position: relative; */
+}
+.block_1_top .card_1 div {
+  /* position: absolute; */
+  position: relative;
+  bottom: 60%;
+}
+.block_1_top .card_2 img {
+  width: 100%;
+  height: 100%;
+}
+.block_1_top .card_2 div {
+  /* position: absolute; */
+  position: relative;
+  bottom: 60%;
+}
+/* block_1_top end*/
+
+/* block_2_top start*/
+.block_2_midle {
+  display: grid;
+  grid-template-columns: 4fr 5fr 3fr;
+  /* border: 1px solid blueviolet; */
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.block_2_midle .card_1 img {
+  width: 100%;
+  height: 100%;
+}
+.block_2_midle .card_2 img {
+  width: 100%;
+  height: 100%;
+}
+.block_2_midle .card_3 img {
+  width: 100%;
+  height: 100%;
+}
+.block_2_midle .card_1 div {
+  position: relative;
+  bottom: 60%;
+}
+.block_2_midle .card_2 div {
+  position: relative;
+  bottom: 60%;
+}
+.block_2_midle .card_3 div {
+  position: relative;
+  bottom: 60%;
+}
+/* block_2_top end*/
+
+/* block_3_bottom start*/
+.block_3_bottom {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 24px;
+}
+.block_3_bottom .card_1 img {
+  width: 100%;
+  height: 100%;
+}
+.block_3_bottom .card_2 img {
+  width: 100%;
+  height: 100%;
+}
+.block_3_bottom .card_1 div {
+  position: relative;
+  bottom: 60%;
+}
+.block_3_bottom .card_2 div {
+  position: relative;
+  bottom: 60%;
+}
+/* block_1_bottom end*/
+/* Why Choose Us section start */
+.Choose_Us_section {
+  max-width: 1200px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.Choose_Us_section_heading {
+  text-align: center;
+}
+.Choose_Us_card_continar {
+  /* border: 1px solid orange; */
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.fa-solid {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  font-size: 50px;
+  background-color: #ff5500e9;
+  color: aquamarine;
+  border-radius: 10px;
+}
+.card_ston_1 {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 15px;
+}
+.card_ston_2 {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 15px;
+}
+.Choose_Us_card_continar_2 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 50px 0;
+  gap: 15px;
+}
+.bacground {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 180, 99, 0.202);
+}
+/* Why Choose Us section end */
+/* A Simple Perfect Place To Get Lost start */
+.perfect_place_container {
+  margin: 100px auto;
+  display: flex;
+  /* border: 1px solid darkslategray; */
+  gap: 50px;
+}
+.text_on_perfect_place {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.video_on_perfect_place {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding-top: 50px;
+}
+.video_on_perfect_place .video_position {
+  position: relative;
+  bottom: 6%;
+  left: 50px;
+}
+/* A Simple Perfect Place To Get Lost end */

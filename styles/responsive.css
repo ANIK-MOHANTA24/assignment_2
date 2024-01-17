@@ -1,0 +1,124 @@
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .nav_container {
+    gap: 20px;
+  }
+  .bacground_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .nav_container,
+  .popular_tours_container {
+    flex-direction: column;
+  }
+  .left_nav_box,
+  .right_nav_box {
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bacground_text_container {
+    padding: 0 auto;
+  }
+  .bacground_form_container,
+  .perfect_place_container {
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    margin: 0 auto;
+  }
+  .popular_tours_text_box,
+  .popular_tours_image_box,
+  .text_block_section,
+  .Choose_Us_section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .block_1_top,
+  .block_2_midle,
+  .block_3_bottom {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Choose_Us_card_continar {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_ston_1,
+  .card_ston_2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Choose_Us_card_continar_2 {
+    width: 100%;
+  }
+  .perfect_place_container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .text_on_perfect_place {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .video_on_perfect_place {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    /* max-width: 1200px; */
+    width: 90%;
+    margin: 0 auto;
+  }
+  .popular_tours_container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .popular_tours_text_box,
+  .popular_tours_image_box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .destination_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Choose_Us_section {
+    width: 80%;
+    margin: 100px auto;
+    /* padding: 0 auto; */
+  }
+  .Choose_Us_card_continar {
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid orange; */
+    /* margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 50px; */
+  }
+  .perfect_place_container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .text_on_perfect_place {
+    width: 90%;
+    padding-top: 100px 0;
+    margin: 0 auto;
+  }
+  .video_on_perfect_place {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
