@@ -72,6 +72,14 @@
     width: 90%;
     margin: 0 auto;
   }
+  .newsletter_start_container {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .right_news_img {
+    max-width: 90%;
+  }
 }
 
 /* for medium device */
