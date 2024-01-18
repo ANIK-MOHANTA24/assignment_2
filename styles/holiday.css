@@ -364,10 +364,13 @@ main {
   height: 100%;
   padding-top: 50px;
 }
+
 .video_on_perfect_place .video_position {
   position: relative;
-  bottom: 6%;
-  left: 50px;
+  bottom: 150px;
+  left: 120px;
+  color: #ff5400;
+  /* color: white; */
 }
 /* A Simple Perfect Place To Get Lost end */
 

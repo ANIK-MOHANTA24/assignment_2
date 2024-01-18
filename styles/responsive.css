@@ -70,6 +70,12 @@
     width: 90%;
     margin: 0 auto;
   }
+  .video_on_perfect_place .video_position {
+    /* position: relative; */
+    bottom: 100px;
+    left: 75px;
+    color: #ff5400;
+  }
   .newsletter_start_container {
     flex-direction: column;
     justify-content: space-between;
@@ -159,6 +165,14 @@
     width: 90%;
     margin: 0 auto;
   }
+  .video_on_perfect_place .video_position {
+    /* position: relative; */
+    bottom: 200px;
+    left: 250px;
+    /* color: #ff5400; */
+    color: white;
+  }
+
   /* news letter section */
   .newsletter_start_container {
     width: 90%;
